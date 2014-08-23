@@ -8,7 +8,7 @@ class GradeUnitTest extends PHPUnit_Framework_TestCase{
 	}
 
 	function test_score_80_should_get_greade_A(){
-		$this->assertEquals("B",$this->Grade->tad_All(80));
+		$this->assertEquals("A",$this->Grade->tad_All(80));
 	}
 	function test_score_70_should_get_greade_A(){
 		$this->assertEquals("B",$this->Grade->tad_All(70));
