@@ -1,3 +1,4 @@
+result/
 *.bak
 composer.lock
 vendor/
