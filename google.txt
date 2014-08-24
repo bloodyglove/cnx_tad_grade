@@ -1,0 +1,33 @@
+*** Setting ***
+Library    Selenium2Library
+Suite Setup	Open Browser    http://enigmatic-shore-6052.herokuapp.com/src/
+Suite Teardown	Close Browser
+Test Setup	Go To    http://enigmatic-shore-6052.herokuapp.com/src/
+*** Variables ***
+
+*** Testcases ***
+Test_Score_80
+	Input Text    score    80
+	Click Button    submit
+	Wait Until Page Contains    you got grade : A
+
+Test_Score_70
+	Input Text    score    70
+	Click Button    submit
+	Wait Until Page Contains    you got grade : B
+
+Test_Score_60
+	Input Text    score    60
+	Click Button    submit
+	Wait Until Page Contains    you got grade : C
+
+Test_Score_50
+	Input Text    score    50
+	Click Button    submit
+	Wait Until Page Contains    you got grade : D
+
+Test_Score_49
+	Input Text    score    49
+	Click Button    submit
+	Wait Until Page Contains    you got grade : F
+*** Keywords ***
