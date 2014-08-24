@@ -11,7 +11,8 @@
 </head>
 <body>
 <center>
-<fieldset width="50%">
+<div width="50%">
+<fieldset>
 <legend>TAD GRADE</legend>
 <form id="inputGrade" name="inputGrade" method="get" action="#">
 	<input type="text" name="score" id="score" value="<?php echo $score;?>">
@@ -21,5 +22,6 @@
 ?>
 </form>
 </fieldset>
+</div>
 </center>
 </body>
