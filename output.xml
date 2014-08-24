@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20140824 14:07:03.920" generator="Robot 2.8.4 (Python 2.7.6 on win32)">
+<suite source="C:\php_demo\google.txt" id="s1" name="Google">
+<kw type="setup" name="Selenium2Library.Open Browser">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:04.016" level="INFO">Opening browser 'firefox' to base url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:14.323" starttime="20140824 14:07:04.016"></status>
+</kw>
+<test id="s1-t1" name="Test_Score_80">
+<kw type="setup" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:14.324" level="INFO">Opening url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:15.104" starttime="20140824 14:07:14.324"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>score</arg>
+<arg>80</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.105" level="INFO">Typing text '80' into text field 'score'</msg>
+<status status="PASS" endtime="20140824 14:07:15.174" starttime="20140824 14:07:15.105"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>submit</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.175" level="INFO">Clicking button 'submit'.</msg>
+<status status="PASS" endtime="20140824 14:07:15.296" starttime="20140824 14:07:15.175"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Wait Until Page Contains">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>you got grade : A</arg>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:15.306" starttime="20140824 14:07:15.296"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20140824 14:07:15.306" critical="yes" starttime="20140824 14:07:14.323"></status>
+</test>
+<test id="s1-t2" name="Test_Score_70">
+<kw type="setup" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.307" level="INFO">Opening url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:15.379" starttime="20140824 14:07:15.307"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>score</arg>
+<arg>70</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.380" level="INFO">Typing text '70' into text field 'score'</msg>
+<status status="PASS" endtime="20140824 14:07:15.428" starttime="20140824 14:07:15.380"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>submit</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.428" level="INFO">Clicking button 'submit'.</msg>
+<status status="PASS" endtime="20140824 14:07:15.812" starttime="20140824 14:07:15.428"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Wait Until Page Contains">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>you got grade : B</arg>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:15.818" starttime="20140824 14:07:15.812"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20140824 14:07:15.818" critical="yes" starttime="20140824 14:07:15.307"></status>
+</test>
+<test id="s1-t3" name="Test_Score_60">
+<kw type="setup" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:15.819" level="INFO">Opening url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:16.973" starttime="20140824 14:07:15.819"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>score</arg>
+<arg>60</arg>
+</arguments>
+<msg timestamp="20140824 14:07:16.973" level="INFO">Typing text '60' into text field 'score'</msg>
+<status status="PASS" endtime="20140824 14:07:17.020" starttime="20140824 14:07:16.973"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>submit</arg>
+</arguments>
+<msg timestamp="20140824 14:07:17.021" level="INFO">Clicking button 'submit'.</msg>
+<status status="PASS" endtime="20140824 14:07:18.307" starttime="20140824 14:07:17.021"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Wait Until Page Contains">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>you got grade : C</arg>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:18.314" starttime="20140824 14:07:18.307"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20140824 14:07:18.314" critical="yes" starttime="20140824 14:07:15.819"></status>
+</test>
+<test id="s1-t4" name="Test_Score_50">
+<kw type="setup" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.315" level="INFO">Opening url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:18.361" starttime="20140824 14:07:18.315"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>score</arg>
+<arg>50</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.362" level="INFO">Typing text '50' into text field 'score'</msg>
+<status status="PASS" endtime="20140824 14:07:18.408" starttime="20140824 14:07:18.362"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>submit</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.409" level="INFO">Clicking button 'submit'.</msg>
+<status status="PASS" endtime="20140824 14:07:18.494" starttime="20140824 14:07:18.408"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Wait Until Page Contains">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>you got grade : D</arg>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:18.510" starttime="20140824 14:07:18.494"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20140824 14:07:18.510" critical="yes" starttime="20140824 14:07:18.314"></status>
+</test>
+<test id="s1-t5" name="Test_Score_49">
+<kw type="setup" name="Selenium2Library.Go To">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://enigmatic-shore-6052.herokuapp.com/src/</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.512" level="INFO">Opening url 'http://enigmatic-shore-6052.herokuapp.com/src/'</msg>
+<status status="PASS" endtime="20140824 14:07:18.562" starttime="20140824 14:07:18.511"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Input Text">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>score</arg>
+<arg>49</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.563" level="INFO">Typing text '49' into text field 'score'</msg>
+<status status="PASS" endtime="20140824 14:07:18.608" starttime="20140824 14:07:18.562"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Click Button">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>submit</arg>
+</arguments>
+<msg timestamp="20140824 14:07:18.609" level="INFO">Clicking button 'submit'.</msg>
+<status status="PASS" endtime="20140824 14:07:18.728" starttime="20140824 14:07:18.608"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Wait Until Page Contains">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>you got grade : F</arg>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:18.735" starttime="20140824 14:07:18.729"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20140824 14:07:18.735" critical="yes" starttime="20140824 14:07:18.511"></status>
+</test>
+<kw type="teardown" name="Selenium2Library.Close Browser">
+<doc>Closes the current browser.</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20140824 14:07:20.018" starttime="20140824 14:07:18.736"></status>
+</kw>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20140824 14:07:20.018" starttime="20140824 14:07:03.920"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="5">Critical Tests</stat>
+<stat fail="0" pass="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="5" id="s1" name="Google">Google</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
