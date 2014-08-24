@@ -18,7 +18,7 @@
 	<input type="text" name="score" id="score" value="<?php echo $score;?>">
 	<input type="submit" id="submit" name="submit" value="submit">
 <?php
-	echo '<hr>'.'you got grade : '.$textGrade.'<hr>';
+	echo '<hr>you got grade : '.$textGrade.'<hr>';
 ?>
 </form>
 </fieldset>
