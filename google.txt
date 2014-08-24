@@ -6,6 +6,11 @@ Test Setup	Go To    http://enigmatic-shore-6052.herokuapp.com/src/
 *** Variables ***
 
 *** Testcases ***
+Test_Score_85
+	Input Text    score    85
+	Click Button    submit
+	Wait Until Page Contains    you got grade : A
+
 Test_Score_80
 	Input Text    score    80
 	Click Button    submit
