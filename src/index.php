@@ -11,13 +11,13 @@
 </head>
 <body>
 <center>
-<fieldset>
+<fieldset width="50%">
 <legend>TAD GRADE</legend>
 <form id="inputGrade" name="inputGrade" method="get" action="#">
 	<input type="text" name="score" id="score" value="<?php echo $score;?>">
 	<input type="submit" id="submit" name="submit" value="submit">
 <?php
-	echo '<hr>'.$textGrade.'<hr>';
+	echo '<hr>'.'you got grade : '.$textGrade.'<hr>';
 ?>
 </form>
 </fieldset>
